@@ -227,6 +227,10 @@ body {
     color: var(--color-2);
 }
 
+.content-segment .project-title {
+    color: var(--color-1);
+}
+
 @media (max-width: 1350px) {
 
     .portfolio {

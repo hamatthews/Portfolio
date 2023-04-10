@@ -55,13 +55,13 @@ export default function Portfolio () {
                 <h1>Projects</h1>
             </div>
             <div className='content-segment'>
-                <p><a className='title-link' href='https://poke-decks-frontend.onrender.com/' target="_blank">Poké-Decks</a> is a MERN stack web app that lets you play the Pokémon trading card game with friends online. It uses WebSocket for real-time gameplay and messaging. It is presently optimized for desktop. You can visit the <a href="https://poke-decks-frontend.onrender.com/" target='_blank'>site</a> or watch a <a href="https://www.youtube.com/watch?v=1PSwuQU2aFY" target='_blank'>video demonstration.</a></p>
+                <p><a className='project-title' href='https://poke-decks-frontend.onrender.com/' target="_blank">Poké-Decks</a> is a MERN stack web app that lets you play the Pokémon trading card game with friends online. It uses WebSocket for real-time gameplay and messaging. It is presently optimized for desktop. You can visit the <a href="https://poke-decks-frontend.onrender.com/" target='_blank'>site</a> or watch a <a href="https://www.youtube.com/watch?v=1PSwuQU2aFY" target='_blank'>video demonstration.</a></p>
             </div>
             <div className='content-segment'>
-               <p><a className='title-link' href='https://hamatthews.github.io/Book-blitz/' target="_blank">Book Blitz</a> is a React app that utilizes the Google Books API to make book recommendations based on other books you've read or are interested in. It scans the descriptions of your selected books for common keywords and uses them to query the API for possible matches.</p>
+               <p><a className='project-title' href='https://hamatthews.github.io/Book-blitz/' target="_blank">Book Blitz</a> is a React app that utilizes the Google Books API to make book recommendations based on other books you've read or are interested in. It scans the descriptions of your selected books for common keywords and uses them to query the API for possible matches.</p>
             </div>
             <div className='content-segment'>
-                <p><a className='title-link' href='https://chrome.google.com/webstore/detail/youtube-twitch-controls/gkiplecebbanecakhopgamnoedicnmkd' target="_blank">Youtube Twitch Controls</a> is a Chrome extension that makes mouse and keyboard shortcuts behave more consistently across Youtube and Twitch, as by default they can produce unexpected behavior depending on what page element currently has focus. This extension ensures that vertical arrow keys adjust volume, horizontal arrow keys skip and rewind, and pressing space or clicking on the video player will always pause and unpause the video.</p>
+                <p><a className='project-title' href='https://chrome.google.com/webstore/detail/youtube-twitch-controls/gkiplecebbanecakhopgamnoedicnmkd' target="_blank">Youtube Twitch Controls</a> is a Chrome extension that makes mouse and keyboard shortcuts behave more consistently across Youtube and Twitch, as by default they can produce unexpected behavior depending on what page element currently has focus. This extension ensures that vertical arrow keys adjust volume, horizontal arrow keys skip and rewind, and pressing space or clicking on the video player will always pause and unpause the video.</p>
             </div>
         </>
     }
@@ -145,8 +145,8 @@ export default function Portfolio () {
             :root {
                 font-size: ${16*fontMod}px;
             }
-            .title-link {
-                font-size: ${24*fontMod}px;
+            .project-title {
+                font-size: ${20*fontMod}px;
                 line-height: ${16*fontMod}px;
             }
 
